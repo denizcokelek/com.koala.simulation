@@ -1,0 +1,10 @@
+{
+  "name": "com.koala.simulation",
+  "version": "1.0.0",
+  "displayName": "Koala Simulation Framework",
+  "description": "Input, interaction and simulation systems for Koala Framework.",
+  "unity": "6000.0",
+  "dependencies": {
+    "com.unity.inputsystem": "1.11.1"
+  }
+}
