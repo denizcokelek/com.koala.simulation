@@ -17,8 +17,9 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Setup .NET
@@ -30,13 +31,12 @@ jobs:
         run: dotnet tool update -g docfx
 
       - name: Build documentation
-        run: docfx docfx.json
+        run: docfx Documentation/docfx.json
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: _site
+          path: Documentation/_site
 
       - name: Deploy to GitHub Pages
-        id: deployment
         uses: actions/deploy-pages@v4
