@@ -37,3 +37,26 @@ This package can be installed via **Unity Package Manager** using a Git URL.
    `https://github.com/KoalaCodeBase/com.koala.simulation.git`
 
 4. Click **Add** and wait for the package to be imported.
+
+## 🚀 Features
+
+Core gameplay systems included in the framework.
+
+### Placement
+Freeform object placement system with validation and preview support.
+
+<img src="https://github.com/user-attachments/assets/3419607f-b516-4870-9840-10c209de2c91" width="600"/>
+
+### Interaction
+Context based interaction architecture.
+
+<img src="https://github.com/user-attachments/assets/5a95bf80-b19f-44f2-b517-67befca25d4d" width="600"/>
+
+### First person character controller
+
+<img src="https://github.com/user-attachments/assets/4412aab1-63e8-4741-89f9-a9a34b463538" width="600"/>
+
+### Time system
+
+Configurable in-game time system with day–night cycle support and runtime debugging controls.
+<img width="480" alt="image" src="https://github.com/user-attachments/assets/4327142e-7e82-41ea-b921-153cc6badaee" />
