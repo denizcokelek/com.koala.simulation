@@ -59,4 +59,5 @@ Context based interaction architecture.
 ### Time system
 
 Configurable in-game time system with day–night cycle support and runtime debugging controls.
+
 <img width="480" alt="image" src="https://github.com/user-attachments/assets/4327142e-7e82-41ea-b921-153cc6badaee" />
